@@ -12,9 +12,9 @@ st.write("Este aplicativo utiliza um modelo de regressão logistica para prever 
 ## captura informações do usuario 
 st.header("Detalhes da transação")
 
-valor_transacao = st.number_input("valor da transação (em dólares)", min_value = 0, max_value = 10000, value = 50)
-tempo_conta = st.number_input("Tempo de conta (em meses)", min_value = 0, max_value = 120, value = 3)
-num_trans_ultimo_30d = st.number_input("Número de Transações nos Últimos 30 dias", min_value = 0, max_value = 1000, value = 3)
+valor_transacao = st.number_input("valor da transação (em dólares) Insira valores entre 0 a 10000", min_value = 0, max_value = 10000, value = 50)
+tempo_conta = st.number_input("Tempo de conta (em meses) insira valores entre 0 a 120", min_value = 0, max_value = 120, value = 3)
+num_trans_ultimo_30d = st.number_input("Número de Transações nos Últimos 30 dias insira valores entre 0 a 1000", min_value = 0, max_value = 1000, value = 3)
 
 # para simplificar, usamos um selectbox para país de origem 
 
